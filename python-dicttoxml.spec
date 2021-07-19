@@ -13,12 +13,12 @@
 Summary:	Converts a Python dictionary or other native data type into a valid XML string
 Summary(pl.UTF-8):	-
 Name:		python-%{module}
-Version:	1.3.1
+Version:	1.7.4
 Release:	1
 License:	GPL v2+
 Group:		Libraries/Python
-Source0:	https://github.com/quandyfactory/dicttoxml/archive/refs/tags/v%{version}.tar.gz
-# Source0-md5:	c2213fe4d09e4573afe28aa9c238c9cc
+Source0:	https://pypi.debian.net/dicttoxml/%{module}-%{version}.tar.gz
+# Source0-md5:	ec5643a048cf32dad3c28db236b923e4
 URL:		https://github.com/quandyfactory/dicttoxml
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.5
