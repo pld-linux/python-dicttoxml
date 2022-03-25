@@ -14,7 +14,7 @@ Summary:	Converts a Python dictionary or other native data type into a valid XML
 Summary(pl.UTF-8):	-
 Name:		python-%{module}
 Version:	1.7.4
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Libraries/Python
 Source0:	https://pypi.debian.net/dicttoxml/%{module}-%{version}.tar.gz
